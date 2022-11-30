@@ -1,0 +1,9 @@
+anim_check = 0
+timer =0
+startx = x
+sin_timer = 0
+starty = y
+rot = 0
+destroy_timer = 0
+boom_timer = 5
+big_timer = 10

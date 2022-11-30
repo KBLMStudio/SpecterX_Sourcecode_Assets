@@ -1,0 +1,1 @@
+stopitstring = "Howdy! Welcome to the code!  I see you found the GITHUB page, having fun?  This stuff right here?  ...Its unused.  Keep looking around, maybe you'll find something else neat, and unused...  or not, who knows."

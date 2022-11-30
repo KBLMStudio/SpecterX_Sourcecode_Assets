@@ -1,0 +1,1 @@
+audio_stop_sound(snd_attack_tv_static_long)

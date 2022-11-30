@@ -1,0 +1,21 @@
+timer += .05
+obj_mirrorghost_mirror.x = x + sin(timer)*5
+obj_mirrorghost_mirror.y = y + sin(timer*3)*.75
+obj_mirrorghost_back.x = x + sin(timer)*5
+obj_mirrorghost_back.y = y + sin(timer*3)*1.5
+obj_mirrorghost_head.x = x+sin(timer)*4.5
+obj_mirrorghost_head.y = y + sin(timer)*1.5
+obj_mirrorghost_eye.x = x + sin(timer)*4.5 + sin(timer*10)*.5
+obj_mirrorghost_eye.y = y +sin(timer)*1.5+cos(timer*10)*.5
+obj_mirrorghost_hair.x = x + sin(timer)*4.5 + 4
+obj_mirrorghost_hair.y = y - 4 + sin(timer)*1.5
+obj_mirrorghost_body.x =  x + sin(timer)*4.5
+obj_mirrorghost_body.y = y
+obj_mirrorghost_body.image_xscale = 1 + abs(sin(timer*.5)*.25)
+obj_mirrorghost_head.image_xscale = 1 + sin(timer)*.0625
+obj_mirrorghost_head.image_yscale = 1 - sin(timer)*.0625
+obj_mirrorghost_hair.image_angle = sin(timer)*22.5
+obj_mirrorghost_hair_0.x = x + sin(timer)*4.5 + 4
+obj_mirrorghost_hair_0.y = y - 4+ sin(timer)*1.5
+obj_mirrorghost_hair_0.image_angle = sin(timer)*22.5 + sin(timer)*5
+

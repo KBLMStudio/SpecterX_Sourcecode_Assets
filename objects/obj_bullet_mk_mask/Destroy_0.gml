@@ -1,0 +1,2 @@
+audio_stop_sound(snd_attack_mk_breath)
+audio_stop_sound(snd_attack_mk_breathquick)
